@@ -96,7 +96,7 @@ $ ./connector-mariadb store
 
 ## Documentation
 
-For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/wiki/Detail) or jump to:
+For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/connector-mariadb/wiki/) or jump to:
 
 * [Config Files](//github.com/storj-thirdparty/connector-mariadb/wiki/#config-files)
 * [Run (long version)](//github.com/storj-thirdparty/connector-mariadb/wiki/#run)

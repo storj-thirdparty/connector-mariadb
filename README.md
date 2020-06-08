@@ -1,6 +1,8 @@
 ## connector-mariadb (uplink v1.0.5)
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/storj-thirdparty/connector-mariadb)](https://goreportcard.com/report/github.com/storj-thirdparty/connector-mariadb)
+![Cloud Build](https://storage.googleapis.com/storj-utropic-services-badges/builds/connector-mariadb/branches/master.svg)
+
 
 ## Overview
 

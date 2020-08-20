@@ -1,5 +1,9 @@
 # Connector-MariaDB Changelog
 
+## [1.0.5] - 17-08-2020
+### Changelog:
+* Resolved upload path issue.
+
 ## [1.0.5] - 20-05-2020
 ### Changelog:
 * Made changes according to latest uplink RC

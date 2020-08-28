@@ -42,7 +42,7 @@ func mariaStore(cmd *cobra.Command, args []string) {
 	storjConfig := LoadStorjConfiguration(fullFileNameStorj)
 
 	// Connect to storj network using the specified credentials.
-	access, project := ConnectToStorj(fullFileNameStorj, storjConfig, useAccessKey)
+	access, project := ConnectToStorj(storjConfig, useAccessKey)
 
 	// Establish connection with MariaDB and get back-up data to be uploaded.
 	//	dataToUpload := CreateBackup(configMariaDB)

@@ -30,15 +30,11 @@ The following flags  can be used with the `store` command:
 
 Sample configuration files are provided in the `./config` folder.
 
-
-
 ## Requirements and Install
 
 To build from scratch, [install the latest Go](https://golang.org/doc/install#install).
 
 > Note: Ensure go modules are enabled (GO111MODULE=on)
-
-
 
 ### Option #1: clone this repo (most common)
 
@@ -55,8 +51,6 @@ cd connector-mariadb
 go build
 ```
 
-
-
 ### Option #2:  ``go get`` into your gopath
 
 To download the project inside your GOPATH use the following command:
@@ -64,7 +58,6 @@ To download the project inside your GOPATH use the following command:
 ```
 go get github.com/storj-thirdparty/connector-mariadb
 ```
-
 
 ## Run (short version)
 
@@ -87,7 +80,6 @@ $ ./connector-mariadb --version
 ```
 $ ./connector-mariadb store
 ```
-
 
 ## Flow Diagram
 

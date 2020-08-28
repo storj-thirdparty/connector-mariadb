@@ -4,7 +4,6 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/storj-thirdparty/connector-mariadb)](https://goreportcard.com/report/github.com/storj-thirdparty/connector-mariadb)
 ![Cloud Build](https://storage.googleapis.com/storj-utropic-services-badges/builds/connector-mariadb/branches/master.svg)
 
-
 ## Overview
 
 The MariaDB Connector connects to an MariaDB database, takes a backup of the specified database and uploads the backup data on Storj network.
@@ -20,8 +19,6 @@ Available Commands:
 
 ```
 
-
-
 `store` - Connect to the specified database (default: `db_property.json`).  Back-up of the database is generated using tooling provided by MariaDB and then uploaded to the Storj network.  Connect to a Storj v3 network using the access specified in the Storj configuration file (default: `storj_config.json`). 
 
  Back-up data is iterated through and upload in 32KB chunks to the Storj network.
@@ -30,21 +27,14 @@ The following flags  can be used with the `store` command:
 
 * `accesskey` - Connects to the Storj network using a serialized access key instead of an API key, satellite url and encryption passphrase .
 * `shared` - Generates a restricted shareable serialized access with the restrictions specified in the Storj configuration file.
-* `debug` - Download the uploaded backup files to local disk inside project_folder/debug folder.
-
-
 
 Sample configuration files are provided in the `./config` folder. 
-
-
 
 ## Requirements and Install
 
 To build from scratch, [install the latest Go](https://golang.org/doc/install#install). 
 
 > Note: Ensure go modules are enabled (GO111MODULE=on)
-
-
 
 #### Option #1: clone this repo (most common)
 
@@ -61,17 +51,13 @@ cd connector-mariadb
 go build
 ```
 
-
-
-#### Option #2:  ``go get`` into your gopath
+# Option #2:  ``go get`` into your gopath
 
  To download the project inside your GOPATH use the following command:
 
 ```
 go get github.com/storj-thirdparty/connector-mariadb
 ```
-
-
 
 ## Run (short version)
 
@@ -94,8 +80,6 @@ $ ./connector-mariadb --version
 ```
 $ ./connector-mariadb store 
 ```
-
-
 
 ## Documentation
 

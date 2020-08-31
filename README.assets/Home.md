@@ -6,8 +6,6 @@
 
 There are two config files that contain Storj network and MariaDB connection information.  The tool is designed so you can specify a config file as part of your tooling/workflow.  
 
-
-
 ##### `db_property.json`
 
 Inside the `./config` directory there is a  `db_property.json` file, with following information about your MariaDB instance:
@@ -18,9 +16,7 @@ Inside the `./config` directory there is a  `db_property.json` file, with follow
 * `password` - Password of MariaDB
 * `database` - MariaDB Database Name
 
-
-
-##### `storj_config.json`
+# `storj_config.json`
 
 Inside the `./config` directory a `storj_config.json` file, with Storj network configuration information in JSON format:
 
@@ -36,8 +32,6 @@ Inside the `./config` directory a `storj_config.json` file, with Storj network c
 * `allowDelete` - Set *true* to create serialized access with restricted delete
 * `notBefore` - Set time that is always before *notAfter*
 * `notAfter` - Set time that is always after *notBefore*
-
-
 
 ## Run
 
@@ -73,10 +67,6 @@ $ ./connector-mariadb store --accesskey
 $ ./connector-mariadb store --share
 ```
 
-
-
-
-
 ##  Testing
 
 The project has been tested on the following operating systems:
@@ -85,12 +75,15 @@ The project has been tested on the following operating systems:
 	* Windows
 		* Version: 10 Pro
 		* Processor: Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz 2.00GHz
+		* InfluxDB version: v1.8.2
 
 	* macOS Catalina
 		* Version: 10.15.4
 		* Processor: 2.5 GHz Dual-Core Intel Core i5
+		* InfluxDB version: v1.8.2
 
 	* ubuntu
 		* Version: 16.04 LTS
 		* Processor: AMD A6-7310 APU with AMD Radeon R4 Graphics × 4
+		* InfluxDB version: v1.8.2
 ```

@@ -89,3 +89,4 @@ For more information on runtime flags, configuration, testing, and diagrams, che
 * [Run (long version)](//github.com/storj-thirdparty/connector-mariadb/wiki/#run)
 * [Testing](//github.com/storj-thirdparty/connector-mariadb/wiki/#testing)
 * [Flow Diagram](//github.com/storj-thirdparty/connector-mariadb/wiki/#flow-diagram)
+* [Video](//github.com/storj-thirdparty/connector-mariadb/docs/videos)
